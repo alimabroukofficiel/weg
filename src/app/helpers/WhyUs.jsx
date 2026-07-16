@@ -1,4 +1,7 @@
+"use client"
+
 import React from 'react';
+import { motion } from 'framer-motion';
 import styles from './WhyChooseUs.module.css';
 
 const features = {
@@ -64,52 +67,132 @@ const features = {
   ],
 };
 
+// --- Animation variants -----------------------------------------------
+
+const rowVariants = {
+  hidden: {},
+  visible: {
+    transition: {
+      staggerChildren: 0.12,
+      delayChildren: 0.05,
+    },
+  },
+};
+
+const cardVariants = {
+  hidden: { opacity: 0, y: 32, scale: 0.96 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: { duration: 0.55, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+const headerVariants = {
+  hidden: { opacity: 0, y: 20 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  },
+};
+
+// --- Components ---------------------------------------------------------
+
 function FeatureCard({ title, text, icon }) {
   return (
-    <div className={styles.whyCard}>
+    <motion.div
+      className={styles.whyCard}
+      variants={cardVariants}
+      whileHover={{
+        y: -8,
+        transition: { duration: 0.25, ease: 'easeOut' },
+      }}
+    >
       <div className={styles.iconBox}>
         <span className={`${styles.corner} ${styles.tl}`}></span>
         <span className={`${styles.corner} ${styles.tr}`}></span>
         <span className={`${styles.corner} ${styles.bl}`}></span>
         <span className={`${styles.corner} ${styles.br}`}></span>
-        <div className={styles.iconCircle}>{icon}</div>
+        <motion.div
+          className={styles.iconCircle}
+          whileHover={{ rotate: 8, scale: 1.08 }}
+          transition={{ type: 'spring', stiffness: 300, damping: 15 }}
+        >
+          {icon}
+        </motion.div>
       </div>
       <h3>{title}</h3>
       <p>{text}</p>
-    </div>
+    </motion.div>
   );
 }
 
 export default function WhyChooseUs() {
   return (
-    <section className={styles.whySection} id='why-us'>
+    <section className={styles.whySection} id="why-us">
       <div className={styles.whyPanel}>
-        <div className={styles.adsHeader}>
+        <motion.div
+          className={styles.adsHeader}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.4 }}
+          variants={headerVariants}
+        >
           <h2>Warum wir?</h2>
 
-          <svg className={styles.squiggle} viewBox="0 0 60 12">
-            <path d="M1 6 Q8 0, 15 6 T29 6 T43 6 T57 6" />
-          </svg>
+          <motion.svg
+            className={styles.squiggle}
+            viewBox="0 0 60 12"
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.8 }}
+          >
+            <motion.path
+              d="M1 6 Q8 0, 15 6 T29 6 T43 6 T57 6"
+              variants={{
+                hidden: { pathLength: 0, opacity: 0 },
+                visible: {
+                  pathLength: 1,
+                  opacity: 1,
+                  transition: { duration: 0.9, ease: 'easeInOut', delay: 0.2 },
+                },
+              }}
+            />
+          </motion.svg>
 
           <p>
             Wir verbinden Daten, Kreativität und eine kontinuierliche Kommunikation,
             um eine starke digitale Strategie zu entwickeln, die das nachhaltige
             Wachstum Ihres Unternehmens fördert.
           </p>
-        </div>
+        </motion.div>
 
         <div className={styles.whyGrid}>
-          <div className={`${styles.whyRow} ${styles.top}`}>
+          <motion.div
+            className={`${styles.whyRow} ${styles.top}`}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            variants={rowVariants}
+          >
             {features.top.map((f) => (
               <FeatureCard key={f.title} {...f} />
             ))}
-          </div>
+          </motion.div>
 
-          <div className={`${styles.whyRow} ${styles.bottom}`}>
+          <motion.div
+            className={`${styles.whyRow} ${styles.bottom}`}
+            initial="hidden"
+            whileInView="visible"
+            viewport={{ once: true, amount: 0.3 }}
+            variants={rowVariants}
+          >
             {features.bottom.map((f) => (
               <FeatureCard key={f.title} {...f} />
             ))}
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
