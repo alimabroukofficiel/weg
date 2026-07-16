@@ -13,10 +13,10 @@ export default function Home() {
     <main>
      <SocialMediaHero></SocialMediaHero>
      <PlataformasAnuncios></PlataformasAnuncios>
+     <Folowers></Folowers>
 
      <WhyUs></WhyUs>
   
-     <Folowers></Folowers>
         <WebsiteBuilder></WebsiteBuilder>
 
         <GoogleReviews></GoogleReviews>
