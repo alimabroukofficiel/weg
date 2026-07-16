@@ -37,7 +37,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <div className={styles.inner}>
         <div className={styles.logo}>
-          <img src="/logo.png" alt="Soap Media" className={styles.logoImage} />
+          <img src="/logoblue.png" alt="Soap Media" className={styles.logoImage} />
         </div>
 
         <div className={styles.navLinks}>
