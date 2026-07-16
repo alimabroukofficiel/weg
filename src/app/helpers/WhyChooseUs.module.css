@@ -1,0 +1,228 @@
+:root {
+  --primary: #0075ff;
+  --yellow: #0075ff;
+  --ink: #111111;
+  --muted: #5b5f66;
+  --line: #e9e9ee;
+  --white: #ffffff;
+  --page-bg: #f0f0ec;
+  --card-bg: #f6f6f2;
+  --icon-bg: #eceae3;
+  --icon-stroke: #9a988f;
+  --dash: #c9c7bd;
+}
+
+.whySection {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 90px 24px 100px;
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  background: var(--white);
+  color: var(--ink);
+  direction: ltr;
+  box-sizing: border-box;
+}
+
+.whySection *,
+.whySection *::before,
+.whySection *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whyPanel {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 0;
+  padding: 0;
+}
+
+.whyBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: #f2f2ee;
+  border-radius: 20px;
+  padding: 8px 16px 8px 12px;
+  margin-bottom: 28px;
+}
+
+.whyBadge .dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.whyBadge .dot svg {
+  width: 9px;
+  height: 9px;
+  stroke: var(--white);
+  stroke-width: 3;
+  fill: none;
+}
+
+.whyBadge span {
+  font-size: 11.5px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: var(--muted);
+  text-transform: uppercase;
+}
+
+.adsHeader {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 56px;
+}
+
+.adsHeader h2 {
+  color: var(--ink);
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.squiggle {
+  margin: 22px auto;
+  width: 56px;
+  display: block;
+}
+
+.squiggle path {
+  stroke: #0075ff;
+  stroke-width: 4;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.adsHeader p {
+  color: var(--muted);
+  font-size: clamp(14px, 2vw, 16.5px);
+  line-height: 1.7;
+  font-weight: 500;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.whyGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.whyRow {
+  display: grid;
+  gap: 20px;
+}
+
+.top {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bottom {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.whyCard {
+  background: var(--card-bg);
+  border-radius: 20px;
+  padding: 32px 26px 34px;
+}
+
+.iconBox {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin-bottom: 30px;
+}
+
+.corner {
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--dash);
+}
+
+.tl { top: 0; left: 0; }
+.tr { top: 0; right: 0; }
+.bl { bottom: 0; left: 0; }
+.br { bottom: 0; right: 0; }
+
+.iconBox::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border: 1px dashed var(--dash);
+  border-radius: 6px;
+  opacity: 0.7;
+}
+
+.iconCircle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 86px;
+  height: 86px;
+  border-radius: 50%;
+  background: var(--icon-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.iconCircle svg {
+  width: 38px;
+  height: 38px;
+  stroke: var(--icon-stroke);
+  stroke-width: 1.6;
+  fill: none;
+}
+
+.whyCard h3 {
+  font-size: 16.5px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 10px;
+}
+
+.whyCard p {
+  font-size: 13.2px;
+  line-height: 1.7;
+  color: var(--muted);
+  font-weight: 400;
+}
+
+@media (max-width: 900px) and (min-width: 721px) {
+  .top,
+  .bottom {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .whyPanel {
+    padding: 36px 24px;
+    border-radius: 24px;
+  }
+
+  .top,
+  .bottom {
+    grid-template-columns: 1fr;
+  }
+
+  .whySection {
+    padding: 50px 16px 60px;
+  }
+}

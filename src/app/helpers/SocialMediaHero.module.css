@@ -1,0 +1,366 @@
+.hero {
+  --primary: #0075ff;
+  --blue-left: #2d93ff;
+  --blue-right: #0075ff;
+  --blue-deep: #0057c2;
+  --yellow: #ffcf3e;
+  --white: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  background: linear-gradient(
+    115deg,
+    var(--blue-left) 0%,
+    var(--blue-right) 65%,
+    var(--blue-deep) 100%
+  );
+  overflow: hidden;
+  padding-bottom: 90px;
+
+}
+
+/* decorative circles */
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  pointer-events: none;
+}
+
+.circle.filled {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.c1 { width: 130px; height: 130px; top: 40px; right: 8%; }
+.c2 { width: 90px; height: 90px; top: 150px; right: 2%; background: rgba(255, 255, 255, 0.18); }
+.c3 { width: 100px; height: 100px; top: 230px; right: 14%; background: rgba(255, 255, 255, 0.18); }
+.c4 { width: 130px; height: 130px; top: 420px; left: 6%; }
+.c5 { width: 40px; height: 40px; bottom: 70px; right: 16%; }
+.c6 { width: 40px; height: 40px; bottom: -10px; left: 47%; }
+.c7 { width: 70px; height: 70px; bottom: -30px; left: 44%; }
+
+/* ===== HEADER ===== */
+.header {
+  position: relative;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 5%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+
+.logoImage {
+  height: 47px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.logo .soapBadge {
+  background: #fff;
+  color: var(--primary);
+  font-weight: 800;
+  font-size: 15px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+
+.logo .mediaText {
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/* icon menu button — hidden on desktop */
+.menuToggle {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.12);
+  border: 2px solid #fff;
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+  color: #fff;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+.menuToggle:hover {
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.menuToggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+/* ===== NAV ===== */
+.navMenu {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.navMenu a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14.5px;
+  padding: 10px 14px;
+  border-radius: 8px;
+  transition: background 0.2s ease, color 0.2s ease;
+  white-space: nowrap;
+}
+
+.navMenu a:hover {
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.dropdown svg {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+}
+
+.dropdown svg path {
+  stroke: #fff;
+}
+
+.mobileNav {
+  display: none; /* hidden on desktop */
+}
+
+/* ===== HERO CONTENT ===== */
+.heroContent {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  max-width: 900px;
+  margin: 60px auto 0;
+  padding: 0 20px;
+}
+
+.heroContent h1 {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 1.05;
+  letter-spacing: -1px;
+}
+
+.squiggleWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.squiggle {
+  margin: 26px auto;
+  width: 60px;
+  display: block;
+}
+
+.squiggle path {
+  stroke: var(--yellow);
+  stroke-width: 4;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.heroContent p {
+  color: #fff;
+  font-size: 17px;
+  line-height: 1.65;
+  font-weight: 500;
+  max-width: 720px;
+  margin: 0 auto;
+  opacity: 0.96;
+}
+
+/* ===== CTA BUTTONS ===== */
+.ctaWrap {
+  position: relative;
+  z-index: 5;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.ctaGroup {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.3px;
+  padding: 16px 38px;
+  border-radius: 50px;
+}
+
+@media (max-width: 768px) {
+  .ctaGroup {
+    flex-direction: column;
+    width: 100%;
+    padding: 0 20px;
+    gap: 12px;
+  }
+
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    padding: 15px 20px;
+  }
+}
+.btnPrimary {
+  background: #fff;
+  color: var(--blue-right);
+  box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+}
+
+.btnPrimary:hover {
+  opacity: 0.9;
+}
+
+.btnSecondary {
+  background: transparent;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 900px) {
+  .heroContent h1 {
+    font-size: 44px;
+  }
+  .heroContent p {
+    font-size: 15.5px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 18px 5%;
+  }
+
+  .logoImage {
+    height: 46px;
+  }
+
+  .menuToggle {
+    display: flex;
+  }
+
+  .desktopNav {
+    display: none; /* Hide default desktop nav menu on mobile */
+  }
+
+  /* Target active open header states */
+  .header.menuOpen {
+    position: relative;
+    z-index: 40;
+  }
+
+  /* Overlay structure animated by Framer Motion */
+  .mobileNav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    padding: 100px 24px 24px;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    gap: 4px;
+    overflow-y: auto;
+    z-index: 30;
+  }
+
+  .mobileNav a {
+    color: #111;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 16px 14px;
+    border-bottom: 1px solid #f0f0f0;
+  }
+
+  .mobileNav a:hover {
+    background: #f1f5ff;
+    color: var(--primary);
+  }
+
+  .dropdown svg path {
+    stroke: #111;
+  }
+
+  /* keeps the toggle interactive on top of mobile menu drawer overlay */
+  .menuToggle {
+    position: relative;
+    z-index: 41;
+  }
+
+  .header.menuOpen .menuToggle {
+    background: rgba(0, 117, 255, 0.08);
+    border-color: var(--primary);
+    color: var(--primary);
+  }
+
+  .heroContent h1 {
+    font-size: 34px;
+  }
+
+  .heroContent {
+    margin-top: 40px;
+  }
+
+  .c1, .c2, .c3 {
+    transform: scale(0.7);
+  }
+}
+
+@media (max-width: 480px) {
+  .heroContent h1 {
+    font-size: 28px;
+  }
+  .heroContent p {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 13px 28px;
+    font-size: 14px;
+  }
+  .squiggle {
+    width: 48px;
+  }
+}

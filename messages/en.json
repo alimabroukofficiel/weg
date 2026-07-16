@@ -1,0 +1,296 @@
+{
+  "nav": {
+    "start": "Home",
+    "about": "About Us",
+    "courses": "Our Services",
+    "advantages": "Advantages",
+    "contact": "Contact",
+    "btn": "Language"
+  },
+  "hero": {
+    "title": "We help you build a complete digital presence that sells",
+    "description": "From social media and paid advertising to Google reviews and websites – everything from a single source to tangibly increase your revenue.",
+    "cta": "Get your free consultation now"
+  },
+  "courses": {
+    "sectionTitle": "Our courses",
+    "sectionSubtitle": "From beginner to advanced – find the right path.",
+    "footerText": "These levels are important for training, university studies, or working in Germany.",
+    "ctaLabel": "Request consultation",
+    "items": [
+      {
+        "id": "a1",
+        "title": "German A1",
+        "badge": "Beginner",
+        "description": "Basic language skills for everyday life and initial contact.",
+        "duration": "approx. 1-2 months",
+        "focus": "Everyday communication"
+      },
+      {
+        "id": "a2",
+        "title": "German A2",
+        "badge": "Basics",
+        "description": "Expanding vocabulary for work and simple texts.",
+        "duration": "approx. 1-2 months",
+        "focus": "Job search basics"
+      },
+      {
+        "id": "b1",
+        "title": "German B1",
+        "badge": "Advanced",
+        "description": "Language level required for training and university studies in Germany.",
+        "duration": "approx. 2-3 months",
+        "focus": "Certificate preparation"
+      },
+      {
+        "id": "b2",
+        "title": "German B2",
+        "badge": "Proficient",
+        "description": "Understand complex topics and communicate fluently.",
+        "duration": "approx. 3-4 months",
+        "focus": "Business language"
+      }
+    ]
+  },
+  "steps": {
+    "sectionTitle": "Start your digital growth in 3 steps",
+    "sectionSubtitle": "Our workflow is completely transparent, fast, and specifically tailored to your company's situation.",
+    "items": [
+      {
+        "id": "01",
+        "title": "Free Consultation",
+        "description": "Contact us. In a brief, free conversation, we will clarify your current situation (social media, Google Maps) and your goals."
+      },
+      {
+        "id": "02",
+        "title": "Choose Your Package",
+        "description": "We will suggest the right package according to your budget and goals – from our packages (Start, Growth, Reviews, Full Package)."
+      },
+      {
+        "id": "03",
+        "title": "Launch and Support",
+        "description": "We begin the implementation, and every month you will receive clear reports with real results and sales figures."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "Why Afaq Digital?",
+    "sectionSubtitle": "Modern marketing strategies with personalized support, full transparency, and expertise in the local market.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Real Results",
+        "description": "No fake numbers, no bought followers – just real, sustainable growth through well-thought-out strategies that protect your account."
+      },
+      {
+        "id": 2,
+        "title": "Local Market Knowledge",
+        "description": "We know the behavior, language, and active times of Moroccan and Arab consumers – for campaigns that reach your target audience precisely."
+      },
+      {
+        "id": 3,
+        "title": "Full Transparency",
+        "description": "Every month you receive clear reports: new followers, interaction rates, reviews, and customers who found you through the campaign."
+      },
+      {
+        "id": 4,
+        "title": "Policy Compliant",
+        "description": "We use officially recognized methods from Google, Meta, and TikTok – for long-term stability without the risk of sudden account suspension."
+      },
+      {
+        "id": 5,
+        "title": "Individual Strategy",
+        "description": "No off-the-shelf templates: We analyze your company, your competition, and your target group to develop a tailor-made marketing plan."
+      },
+      {
+        "id": 6,
+        "title": "Direct Contact",
+        "description": "You are not alone: direct contact with our team for questions, ideas, and adjustments – we are part of your team, not an external service provider."
+      }
+    ]
+  },
+  "services": {
+    "sectionTitle": "Our Services",
+    "sectionSubtitle": "Everything that makes your business digitally successful – from websites to community growth, all from a single source.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Social Media Management",
+        "description": "We fully manage your Instagram, Facebook, and TikTok presence — content creation, editorial planning, and organic growth for more followers, likes, and views."
+      },
+      {
+        "id": 2,
+        "title": "Paid Advertising (Ads)",
+        "description": "Targeted ad campaigns on Facebook, Instagram, TikTok, YouTube, and Google Ads — for maximum reach and measurable results."
+      },
+      {
+        "id": 3,
+        "title": "Professional Websites",
+        "description": "Modern, fast, and mobile-optimized websites for your business — from design to publication in 7–14 days. Includes basic SEO optimization."
+      },
+      {
+        "id": 4,
+        "title": "Google Review Building",
+        "description": "We help you collect more genuine Google reviews and sustainably increase your local visibility on Google Maps."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contact us",
+    "sectionSubtitle": "Do you have questions or want to grow your business digitally? Send us a message directly.",
+    "labelName": "Full name",
+    "labelEmail": "Email address",
+    "labelMessage": "Your message",
+    "btnSend": "Send message",
+    "btnSending": "Sending...",
+    "successMsg": "Your message has been sent successfully!",
+    "emailSubject": "Inquiry German courses",
+    "errors": {
+      "nameRequired": "Please enter your name.",
+      "nameMin": "The name must be at least 2 characters long.",
+      "emailRequired": "Please enter your email address.",
+      "emailInvalid": "Please enter a valid email address.",
+      "messageRequired": "Please enter your message.",
+      "messageMin": "The message must be at least 5 characters long."
+    }
+  },
+  "about": {
+    "title": "About us",
+    "subtitle": "Together on the path to digital growth – with professional marketing, personal support, and a clear strategy for your business.",
+    "cards": [
+      {
+        "title": "Who we are",
+        "text": "Afaq Digital is a modern marketing agency that accompanies businesses on their journey to greater digital visibility. With well-thought-out strategies for websites, advertisements, and social media, we support our clients in appearing online securely and confidently. Our work combines modern marketing methods with personalized support and practical results. In doing so, we create a transparent collaboration where sustainable growth and individual support are at the center."
+      },
+      {
+        "title": "Our Mission",
+        "text": "Our mission is to position businesses digitally optimal for the local market. We don't just want to provide our clients with more visibility, but also give them the confidence to attract new customers and achieve their business goals. Through experienced experts and modern marketing concepts, we accompany every step of the growth process."
+      },
+      {
+        "title": "Websites, Advertising and Branding",
+        "text": "The digital market offers numerous opportunities for visibility, customer acquisition, and business development. That is why we specifically support our clients in meeting the necessary digital requirements for the next step. Whether it is a website, an advertising campaign, or branding – we help you expand your reach and successfully arrive in the digital market."
+      },
+      {
+        "title": "Our Vision",
+        "text": "Our vision is to open up new future opportunities for businesses through digital marketing. We believe that a strong online presence forms the basis for successful growth, customer trust, and business success. With passion, quality, and innovation, we want to make a long-term positive contribution to the success of our clients."
+      }
+    ]
+  },
+"agb": {
+    "title": "Terms and Conditions",
+    "items": [
+      {
+        "title": "1. Scope",
+        "text": "These Terms and Conditions apply to all services provided by Mediaweg Digital Agency."
+      },
+      {
+        "title": "2. Services",
+        "text": "Mediaweg Digital Agency provides services in web design, web development, search engine optimization (SEO), branding, graphic design, social media marketing, and digital marketing."
+      },
+      {
+        "title": "3. Contract Formation",
+        "text": "A contract is concluded upon written confirmation of a quotation, via email, WhatsApp, or through the contact form on the website."
+      },
+      {
+        "title": "4. Prices and Payment",
+        "text": "The fees for the agreed services are determined before the project begins. Payments are made according to the payment terms specified in the quotation or contract."
+      },
+      {
+        "title": "5. Cancellation",
+        "text": "A project may be canceled before work has started. Services already performed or costs already incurred will be charged accordingly."
+      },
+      {
+        "title": "6. Project Execution",
+        "text": "The client agrees to provide all information and materials necessary for the project in a timely manner. Delays caused by missing client input may result in adjustments to the project schedule."
+      },
+      {
+        "title": "7. Liability",
+        "text": "Mediaweg Digital Agency is not liable for outages or damages beyond its control, including issues caused by hosting providers, third-party services, or technical failures."
+      },
+      {
+        "title": "8. Governing Law",
+        "text": "These Terms and Conditions are governed by the laws of the Kingdom of Morocco. The place of jurisdiction is Salé, Morocco."
+      }
+    ]
+  },
+  "datenschutz": {
+    "title": "Privacy Policy",
+    "items": [
+      {
+        "title": "1. General Information",
+        "text": "Protecting your personal data is important to us. We process your personal data confidentially and in accordance with the applicable data protection laws of the Kingdom of Morocco."
+      },
+      {
+        "title": "2. Data Controller",
+        "text": "Mediaweg Digital Agency\nOwner: Badr Kassimi\nRue Omar Ibn Abdel Aziz 1151\nHay Rahma, Salé\nMorocco\nEmail: Kontakt@mediaweg.com\nPhone: +212 723 331453"
+      },
+      {
+        "title": "3. Collection and Processing of Personal Data",
+        "text": "When you contact us through the contact form, we may process the following information:",
+        "list": [
+          "Name",
+          "Email address",
+          "Phone number (optional)",
+          "Content of your message"
+        ],
+        "footer": "This information is used solely to process your inquiry and provide our services."
+      },
+      {
+        "title": "4. Use of WhatsApp",
+        "text": "Our website includes a WhatsApp button. When you click it, you will be redirected to WhatsApp. Personal data may be processed by WhatsApp in accordance with its own privacy policy."
+      },
+      {
+        "title": "5. Data Retention",
+        "text": "Your personal data will only be stored for as long as necessary to process your inquiry, fulfill contractual obligations, or comply with legal retention requirements."
+      },
+      {
+        "title": "6. Your Rights",
+        "text": "You have the right to:",
+        "list": [
+          "Request access to your stored personal data",
+          "Request correction of inaccurate data",
+          "Request deletion of your personal data"
+        ],
+        "footer": "If you have any questions regarding data protection, you can contact us at any time."
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Legal Notice",
+    "items": [
+      {
+        "title": "Mediaweg Digital Agency",
+        "owner": "Badr Kassimi",
+        "address": [
+          "Rue Omar Ibn Abdel Aziz 1151",
+          "Hay Rahma",
+          "Salé",
+          "Morocco"
+        ],
+        "phone": "+212 723 331453",
+        "email": "Kontakt@mediaweg.com"
+      },
+      {
+        "title": "Person Responsible for Content",
+        "text": "Badr Kassimi"
+      },
+      {
+        "title": "Notice",
+        "text": "Mediaweg Digital Agency is a digital agency based in Morocco, providing services in web design, web development, SEO, branding, graphic design, and digital marketing."
+      }
+    ]
+  },
+  "loading": {
+    "title": "Loading...",
+    "subtitle": "Please wait a moment."
+  },
+  "footer": {
+    "nav": {
+      "home": "Home",
+      "impressum": "Legal Notice",
+      "privacy": "Privacy Policy",
+      "terms": "GTC"
+    },
+    "copyright": "Mediaweg Language Institute. All rights reserved. © 2026"
+  }
+}

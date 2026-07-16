@@ -1,0 +1,54 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Body */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Lists */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Buttons */
+button {
+  cursor: pointer;
+  font: inherit;
+  border: none;
+  background: none;
+}
+
+/* Form elements */
+input,
+textarea,
+select {
+  font: inherit;
+  outline: none;
+}

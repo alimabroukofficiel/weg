@@ -1,0 +1,259 @@
+{
+  "nav": {
+    "start": "Accueil",
+    "about": "À propos",
+    "courses": "Cours",
+    "advantages": "Avantages",
+    "contact": "Contact",
+    "btn": "Langue"
+  },
+  "hero": {
+    "title": "Ton chemin vers l'Allemagne commence par la langue allemande",
+    "description": "Apprends l'allemand de A1 à B2 dans de petits groupes interactifs en ligne avec des enseignants qualifiés. Nous te préparons de façon optimale pour une formation, des études ou un emploi.",
+    "cta": "Obtenir un conseil maintenant"
+  },
+  "courses": {
+    "sectionTitle": "Nos cours",
+    "sectionSubtitle": "Du débutant à l'avancé – trouve le bon parcours pour toi.",
+    "footerText": "Ces niveaux sont importants pour une formation, des études ou un travail en Allemagne.",
+    "ctaLabel": "Demander un conseil",
+    "items": [
+      {
+        "id": "a1",
+        "title": "Allemand A1",
+        "badge": "Débutant",
+        "description": "Compétences linguistiques de base pour la vie quotidienne et les premiers contacts.",
+        "duration": "environ 1-2 mois",
+        "focus": "Communication quotidienne"
+      },
+      {
+        "id": "a2",
+        "title": "Allemand A2",
+        "badge": "Fondations",
+        "description": "Enrichissement du vocabulaire pour le travail et les textes simples.",
+        "duration": "environ 1-2 mois",
+        "focus": "Bases de la recherche d'emploi"
+      },
+      {
+        "id": "b1",
+        "title": "Allemand B1",
+        "badge": "Intermédiaire",
+        "description": "Niveau de langue pour une formation ou des études en Allemagne.",
+        "duration": "environ 2-3 mois",
+        "focus": "Préparation au certificat"
+      },
+      {
+        "id": "b2",
+        "title": "Allemand B2",
+        "badge": "Compétent",
+        "description": "Comprendre des sujets complexes et communiquer couramment.",
+        "duration": "environ 3-4 mois",
+        "focus": "Langue professionnelle"
+      }
+    ]
+  },
+  "steps": {
+    "sectionTitle": "Commence ton cours d'allemand en 3 étapes",
+    "sectionSubtitle": "Notre processus d'inscription est totalement transparent, rapide et adapté précisément à ta situation.",
+    "items": [
+      {
+        "id": "01",
+        "title": "Conseil et évaluation",
+        "description": "Prends contact avec nous. Dans une courte conversation gratuite, nous évaluons tes connaissances préalables et tes objectifs, et trouvons ton niveau de cours idéal."
+      },
+      {
+        "id": "02",
+        "title": "Choisis ton cours en toute flexibilité",
+        "description": "Choisis ton créneau en direct dans notre offre (A1, A2, B1 ou B2). Réserve ta place dans les petits groupes interactifs facilement et sans complication."
+      },
+      {
+        "id": "03",
+        "title": "Apprends en direct et lance-toi",
+        "description": "Rejoins nos cours interactifs en ligne. Apprends avec des enseignants qualifiés et reçois ton certificat à la fin du cours. Nous t'accompagnons sur ton chemin vers l'Allemagne – pour une formation, des études ou un emploi."
+      }
+    ]
+  },
+  "why": {
+    "sectionTitle": "Pourquoi Leen Institut ?",
+    "sectionSubtitle": "Des cours d'allemand modernes avec un accompagnement personnel, des horaires flexibles et des enseignants expérimentés.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Horaires flexibles",
+        "description": "Nos cours d'allemand s'adaptent à ton quotidien. Apprends depuis chez toi et choisis des horaires qui s'accordent avec ton travail, tes études ou ta famille."
+      },
+      {
+        "id": 2,
+        "title": "Enseignants qualifiés",
+        "description": "Nos enseignants d'allemand expérimentés ont des connaissances pédagogiques solides et t'accompagnent pas à pas vers une maîtrise de la langue et des examens réussis."
+      },
+      {
+        "id": 3,
+        "title": "Cours en direct",
+        "description": "Participe à des cours en ligne interactifs en direct, pose tes questions en temps réel et bénéficie d'un enseignement pratique avec des échanges directs avec les professeurs et les participants."
+      },
+      {
+        "id": 4,
+        "title": "Petits groupes",
+        "description": "Grâce aux petits groupes, chaque participant reçoit plus d'attention et un soutien individuel. Ainsi, les objectifs d'apprentissage peuvent être atteints plus rapidement et les compétences linguistiques améliorées de façon ciblée."
+      }
+    ]
+  },
+  "contact": {
+    "sectionTitle": "Contacte-nous",
+    "sectionSubtitle": "Tu as des questions ou tu souhaites un conseil ? Écris-nous directement par e-mail.",
+    "labelName": "Nom complet",
+    "labelEmail": "Adresse e-mail",
+    "labelMessage": "Ton message",
+    "btnSend": "Envoyer le message",
+    "btnSending": "Envoi en cours...",
+    "successMsg": "Ton message a été envoyé avec succès !",
+    "emailSubject": "Demande de renseignements – cours d'allemand",
+    "errors": {
+      "nameRequired": "Veuillez entrer ton nom.",
+      "nameMin": "Le nom doit comporter au moins 2 caractères.",
+      "emailRequired": "Veuillez entrer ton adresse e-mail.",
+      "emailInvalid": "Veuillez entrer une adresse e-mail valide.",
+      "messageRequired": "Veuillez entrer ton message.",
+      "messageMin": "Le message doit comporter au moins 5 caractères."
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "subtitle": "Ensemble sur le chemin vers l'Allemagne – avec des cours d'allemand professionnels, un accompagnement personnel et une préparation claire à la formation, aux études et au travail.",
+    "cards": [
+      {
+        "title": "Qui sommes-nous",
+        "text": "Leen Institut est une école de langues en ligne moderne qui accompagne les gens sur leur chemin vers l'Allemagne. Avec des cours d'allemand structurés de A1 à B2, nous aidons nos participants à maîtriser la langue avec confiance. Notre enseignement combine des méthodes d'apprentissage modernes, un accompagnement personnel et des contenus pratiques, créant ainsi un environnement d'apprentissage agréable où la réussite durable et le développement individuel sont au cœur de notre démarche."
+      },
+      {
+        "title": "Notre mission",
+        "text": "Notre mission est de préparer les gens linguistiquement de la meilleure façon possible pour leur chemin vers l'Allemagne. Nous voulons non seulement enseigner l'allemand à nos participants, mais aussi leur donner la confiance nécessaire pour saisir de nouvelles opportunités et atteindre leurs objectifs personnels. Grâce à des enseignants qualifiés et des concepts pédagogiques modernes, nous accompagnons chaque étape du processus d'apprentissage."
+      },
+      {
+        "title": "Formation, études et travail",
+        "text": "L'Allemagne offre de nombreuses possibilités pour la formation, les études et le développement professionnel. C'est pourquoi nous aidons spécifiquement nos participants à remplir les conditions linguistiques pour leur prochaine étape professionnelle. Que ce soit une formation, des études universitaires ou une entrée dans le monde du travail – nous t'aidons à élargir tes horizons et à réussir ton arrivée en Allemagne."
+      },
+      {
+        "title": "Notre vision",
+        "text": "Notre vision est d'ouvrir de nouvelles perspectives d'avenir aux gens grâce à la langue. Nous croyons que les compétences linguistiques sont la base d'une intégration réussie, d'un développement personnel et d'une réussite professionnelle. Avec passion, qualité et innovation, nous souhaitons contribuer durablement et positivement à l'avenir de nos participants."
+      }
+    ]
+  },
+  "agb": {
+    "title": "Conditions générales de vente",
+    "items": [
+      {
+        "title": "1. Champ d'application",
+        "text": "Ces conditions générales s'appliquent à tous les cours de langue en ligne de Leen Institut."
+      },
+      {
+        "title": "2. Offre de services",
+        "text": "Leen Institut propose des cours d'allemand en ligne à différents niveaux (A1–B2). L'enseignement se déroule exclusivement en ligne."
+      },
+      {
+        "title": "3. Conclusion du contrat",
+        "text": "L'inscription à un cours se fait par e-mail, WhatsApp ou via le formulaire de contact du site. Un contrat est conclu dès que l'inscription est confirmée."
+      },
+      {
+        "title": "4. Prix et conditions de paiement",
+        "text": "Les frais de cours sont convenus avant le début du cours. Le paiement s'effectue à l'avance via le mode de paiement convenu."
+      },
+      {
+        "title": "5. Droit de rétractation",
+        "text": "Les participants peuvent annuler leur inscription dans les 14 jours suivant la conclusion du contrat, à condition que l'enseignement n'ait pas encore commencé. Les paiements déjà effectués seront remboursés."
+      },
+      {
+        "title": "6. Résiliation",
+        "text": "Après le début du cours, une résiliation ordinaire est en principe exclue. Dans des cas particuliers, un accord individuel peut être trouvé."
+      },
+      {
+        "title": "7. Responsabilité",
+        "text": "Leen Institut n'est pas responsable des problèmes techniques en dehors de sa sphère d'influence (par ex. la connexion internet du participant)."
+      },
+      {
+        "title": "8. Droit applicable",
+        "text": "Le droit du royaume du Maroc s'applique. Le lieu de juridiction est Salé, Maroc."
+      }
+    ]
+  },
+  "datenschutz": {
+    "title": "Politique de confidentialité",
+    "items": [
+      {
+        "title": "1. Informations générales",
+        "text": "La protection de tes données personnelles est importante pour nous. Nous traitons tes données personnelles de façon confidentielle et conformément aux réglementations en vigueur sur la protection des données au royaume du Maroc."
+      },
+      {
+        "title": "2. Responsable",
+        "text": "Leen Institut\nPropriétaire : Ali Mabrouk\nRue Omar Ibn Abdel Aziz 1151\nHay Rahma, Salé\nMaroc\nE-mail : leen.institut@gmail.com\nTéléphone : 00212 723 331453"
+      },
+      {
+        "title": "3. Collecte et traitement des données personnelles",
+        "text": "Lorsque tu nous contactes via le formulaire de contact, nous traitons les données suivantes :",
+        "list": [
+          "Nom",
+          "Adresse e-mail",
+          "Contenu de ton message"
+        ],
+        "footer": "Ces données sont utilisées exclusivement pour traiter ta demande."
+      },
+      {
+        "title": "4. Utilisation de WhatsApp",
+        "text": "Notre site web contient un bouton WhatsApp. En cliquant dessus, tu seras redirigé vers WhatsApp. Des données personnelles peuvent être traitées par WhatsApp. Les conditions de confidentialité du fournisseur s'appliquent."
+      },
+      {
+        "title": "5. Durée de conservation",
+        "text": "Tes données personnelles ne seront conservées que le temps nécessaire au traitement de ta demande ou à la fourniture de nos services."
+      },
+      {
+        "title": "6. Tes droits",
+        "text": "Tu as le droit de :",
+        "list": [
+          "Obtenir des informations sur tes données enregistrées",
+          "Faire corriger des données inexactes",
+          "Demander la suppression de tes données"
+        ],
+        "footer": "Si tu as des questions sur la protection des données, tu peux nous contacter à tout moment."
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Mentions légales",
+    "items": [
+      {
+        "title": "Leen Institut",
+        "owner": "Ali Mabrouk",
+        "address": [
+          "Rue Omar Ibn Abdel Aziz 1151",
+          "Hay Rahma",
+          "Salé",
+          "Maroc"
+        ],
+        "phone": "00212 723 331453",
+        "email": "leen.institut@gmail.com"
+      },
+      {
+        "title": "Responsable du contenu",
+        "text": "Ali Mabrouk"
+      },
+      {
+        "title": "Remarque",
+        "text": "Leen Institut est une école de langues privée en ligne basée au Maroc. L'enseignement se déroule exclusivement en ligne."
+      }
+    ]
+  },
+    "loading": {
+    "title": "Chargement...",
+    "subtitle": "Veuillez patienter un instant."
+},
+    "footer": {
+    "nav": {
+      "home": "Accueil",
+      "impressum": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions générales"
+    },
+    "copyright": "Institut de langues Leen. Tous droits réservés. © 2026"
+  }
+}

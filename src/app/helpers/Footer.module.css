@@ -1,0 +1,133 @@
+.footer {
+  --primary: #0075ff;
+  --ink: #111111;
+  --muted: #5b5f66;
+  --line: #e9e9ee;
+  --white: #ffffff;
+
+  font-family: "Poppins", sans-serif;
+  background: var(--white);
+  border-top: 1px solid var(--line);
+  padding: 70px 5% 40px;
+}
+
+.inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+}
+
+/* Logo */
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoImage {
+  height: 60px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+/* Nav links */
+.navLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.navLinks a {
+  color: var(--ink);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  white-space: nowrap;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.navLinks a:hover {
+  color: var(--primary);
+  background: rgba(0, 117, 255, 0.08);
+}
+
+/* Social icons */
+.socialIcons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+
+.socialIcons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: var(--primary);
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.socialIcons a:hover {
+  background: #005ed1;
+  transform: translateY(-2px);
+}
+
+.socialIcons svg {
+  width: 19px;
+  height: 19px;
+}
+
+.bottomBar {
+  margin: 56px auto 0;
+  text-align: center;
+}
+
+.bottomBar p {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 600px) {
+  .navLinks {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .navLinks a {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .navLinks a {
+    font-size: 14px;
+    padding: 6px 10px;
+  }
+
+  .logoImage {
+    height: 48px;
+  }
+
+  .footer {
+    padding: 50px 5% 32px;
+  }
+
+  .bottomBar {
+    margin-top: 40px;
+  }
+}

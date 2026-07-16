@@ -1,0 +1,58 @@
+.googleReviewsSection {
+  background-color: #f8f9fa;
+  padding: 100px 40px;
+  text-align: center;
+  border-radius: 20px;
+  margin: 60px auto;
+  max-width: 1100px;
+}
+
+.iconWrapper {
+  margin-bottom: 25px;
+}
+
+.starIcon {
+  width: 80px;
+  height: 80px;
+}
+
+.reviewsContent {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reviewsContent h2 {
+  font-size: 42px;
+  color: #111111;
+  font-weight: 800;
+  margin-bottom: 25px;
+  line-height: 1.2;
+}
+
+.reviewsContent p {
+  color: #5b5f66;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 40px;
+}
+
+/* Botón oscuro con fondo #121212 */
+.darkBtn {
+  display: inline-block;
+  padding: 18px 45px;
+  background-color: #121212;
+  color: #ffffff;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: none;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.darkBtn:hover {
+  background-color: #000000; /* Un tono un poco más negro al pasar el ratón */
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}

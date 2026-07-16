@@ -1,0 +1,218 @@
+
+.adsSection {
+  --primary: #0075ff;
+  --yellow: #0075ff;
+  --ink: #111111;
+  --muted: #5b5f66;
+  --line: #e9e9ee;
+  --white: #ffffff;
+  --shadow-hover: 0 8px 30px rgba(0, 0, 0, 0.10);
+
+  font-family: 'Poppins', 'Helvetica Neue', Arial, sans-serif;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 90px 24px 100px;
+}
+.sectionAds{
+  background-color: #f5F5F5;
+}
+.adsHeader {
+  text-align: center;
+  max-width: 760px;
+  margin: 0 auto 56px;
+}
+
+.adsHeader h2 {
+  color: var(--ink);
+  font-size: clamp(28px, 4vw, 48px);
+  font-weight: 800;
+  letter-spacing: -1px;
+  line-height: 1.1;
+  margin-bottom: 0;
+}
+
+.squiggle {
+  margin: 22px auto;
+  width: 56px;
+  display: block;
+}
+
+.squiggle path {
+  stroke: var(--yellow);
+  stroke-width: 4;
+  fill: none;
+  stroke-linecap: round;
+}
+
+.adsHeader p {
+  color: var(--muted);
+  font-size: clamp(14px, 2vw, 16.5px);
+  line-height: 1.7;
+  font-weight: 500;
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.adsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.adPlatformCard {
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+  box-shadow: 0 4px 16px rgba(17, 17, 17, 0.06);
+  cursor: pointer;
+  transition: box-shadow 0.25s ease;
+}
+
+.adPlatformCard:hover {
+  box-shadow: var(--shadow-hover);
+}
+
+.cardArtContainer {
+  position: relative;
+  height: 170px;
+  margin: 14px 14px 0;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* ========================================================
+   PLATFORM COLORS & CARD CONFIGURATIONS
+   ======================================================== */
+
+/* Meta Card Configurations (#0f79e8) */
+.metaCard {
+  --brand-color: #0f79e8;
+}
+.metaCard .cardArtContainer {
+  background: linear-gradient(135deg, #0f79e8 0%, #0c61ba 100%);
+}
+.metaCard .arrow {
+  color: var(--brand-color);
+}
+
+/* TikTok Card Configurations (BLACK) */
+.tiktokCard {
+  --brand-color: #000000;
+}
+.tiktokCard .cardArtContainer {
+  background: linear-gradient(135deg, #000000 0%, #222222 100%);
+}
+.tiktokCard .arrow {
+  color: var(--brand-color);
+}
+
+/* Google Card Configurations (#FDFDFD & #4285F4 for Hover interactions) */
+.googleCard {
+  --brand-color: #4285F4; /* Google Blue for Arrow accessibility */
+}
+.googleCard .cardArtContainer {
+  background: #FDFDFD;
+  border: 1px solid var(--line); /* Subtle definition borders for white container */
+}
+.googleCard .arrow {
+  color: var(--brand-color);
+}
+
+/* ======================================================== */
+
+.logoSvg {
+  width: 54px;
+  height: 54px;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform: scale(1.1);
+
+}
+
+/* Custom sizes to accommodate high-res proportions properly */
+.googleCard .logoSvg {
+  width: 64px;
+  height: 64px;
+}
+
+
+.cardBody {
+  padding: 26px 24px 30px;
+  text-align: left;
+}
+
+.cardBody h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 12px;
+}
+
+.arrow {
+  display: inline-block;
+  transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  font-weight: 600;
+}
+
+
+
+.cardBody p {
+  color: var(--muted);
+  font-size: 14.5px;
+  line-height: 1.7;
+  font-weight: 400;
+}
+
+.adsNote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 50px;
+  font-size: 14px;
+  color: var(--muted);
+  font-weight: 500;
+}
+
+.adsNote svg {
+  width: 18px;
+  height: 18px;
+  stroke: #10b981;
+  stroke-width: 2.5;
+  fill: none;
+  flex-shrink: 0;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 990px) {
+  .adsGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 680px) {
+  .adsSection {
+    padding: 60px 20px 70px;
+  }
+
+  .adsGrid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .adsHeader {
+    margin-bottom: 40px;
+  }
+
+  .cardArtContainer {
+    height: 160px;
+  }
+}

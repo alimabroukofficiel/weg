@@ -1,0 +1,300 @@
+{
+  "nav": {
+    "start": "Start",
+    "about": "Über uns",
+    "courses": "Unsere Leistungen",
+    "advantages": "Vorteile",
+    "contact": "Kontakt",
+    "btn": "Sprache"
+  },
+"hero": {
+  "title": "Wir helfen dir, eine vollständige digitale Präsenz aufzubauen, die verkauft",
+  "description": "Von Social Media über bezahlte Werbung, Google-Bewertungen bis hin zur Website – alles aus einer Hand, um deinen Umsatz spürbar zu steigern.",
+  "cta": "Jetzt kostenlose Beratung sichern"
+},
+  "courses": {
+    "sectionTitle": "Unsere kurse",
+    "sectionSubtitle": "Von anfänger bis fortgeschritten – finde den richtigen weg.",
+    "footerText": "Diese niveaus sind wichtig für ausbildung, studium oder arbeit in Deutschland.",
+    "ctaLabel": "Beratung anfragen",
+    "items": [
+      {
+        "id": "a1",
+        "title": "Deutsch A1",
+        "badge": "Beginner",
+        "description": "Grundlegende sprachfähigkeiten für den alltag und erste kontakte.",
+        "duration": "ca. 1-2 monate",
+        "focus": "Alltagskommunikation"
+      },
+      {
+        "id": "a2",
+        "title": "Deutsch A2",
+        "badge": "Grundlagen",
+        "description": "Erweiterung des wortschatzes für arbeit und einfache texte.",
+        "duration": "ca. 1-2 monate",
+        "focus": "Arbeitssuche basics"
+      },
+      {
+        "id": "b1",
+        "title": "Deutsch B1",
+        "badge": "Fortgeschritten",
+        "description": "Sprachniveau für ausbildung und studium in Deutschland.",
+        "duration": "ca. 2-3 monate",
+        "focus": "Zertifikatsvorbereitung"
+      },
+      {
+        "id": "b2",
+        "title": "Deutsch B2",
+        "badge": "Kompetent",
+        "description": "Komplexe themen verstehen und fließend kommunizieren.",
+        "duration": "ca. 3-4 monate",
+        "focus": "Berufssprache"
+      }
+    ]
+  },
+"steps": {
+  "sectionTitle": "Starte dein digitales Wachstum in 3 Schritten",
+  "sectionSubtitle": "Unser Arbeitsprozess ist vollkommen transparent, schnell und speziell auf die Situation deines Unternehmens zugeschnitten.",
+  "items": [
+    {
+      "id": "01",
+      "title": "Kostenlose Beratung",
+      "description": "Kontaktiere uns. In einem kurzen, kostenlosen Gespräch klären wir deine aktuelle Situation (Social Media, Google Maps) und deine Ziele."
+    },
+    {
+      "id": "02",
+      "title": "Wähle dein Paket",
+      "description": "Wir schlagen dir das passende Paket entsprechend deinem Budget und deinen Zielen vor – aus unseren Paketen (Start, Wachstum, Bewertungen, Komplettpaket)."
+    },
+    {
+      "id": "03",
+      "title": "Start und Betreuung",
+      "description": "Wir beginnen mit der Umsetzung, und jeden Monat erhältst du klare Berichte mit echten Ergebnissen und Verkaufszahlen."
+    }
+  ]
+},
+ "why": {
+  "sectionTitle": "Warum Afaq Digital?",
+  "sectionSubtitle": "Moderne Marketingstrategien mit persönlicher Betreuung, voller Transparenz und Expertise im lokalen Markt.",
+  "items": [
+     {
+      "id": 1,
+      "title": "Echte Ergebnisse",
+      "description": "Keine falschen Zahlen, keine gekauften Follower – nur echtes, nachhaltiges Wachstum durch durchdachte Strategien, die dein Konto schützen."
+    },
+    {
+      "id": 2,
+      "title": "Lokale Marktkenntnis",
+      "description": "Wir kennen Verhalten, Sprache und aktive Zeiten marokkanischer und arabischer Konsumenten – für Kampagnen, die deine Zielgruppe präzise erreichen."
+    },
+    {
+      "id": 3,
+      "title": "Volle Transparenz",
+      "description": "Jeden Monat erhältst du klare Berichte: neue Follower, Interaktionsrate, Bewertungen und Kunden, die durch die Kampagne zu dir gefunden haben."
+    },
+    {
+      "id": 4,
+      "title": "Richtlinienkonform",
+      "description": "Wir nutzen offiziell anerkannte Methoden von Google, Meta und TikTok – für langfristige Stabilität ohne Risiko einer plötzlichen Kontosperrung."
+    },
+    {
+      "id": 5,
+      "title": "Individuelle Strategie",
+      "description": "Keine Vorlage von der Stange: Wir analysieren dein Unternehmen, deine Konkurrenz und Zielgruppe und entwickeln einen maßgeschneiderten Marketingplan."
+    },
+    {
+      "id": 6,
+      "title": "Direkter Kontakt",
+      "description": "Du bist nicht allein: direkter Kontakt zu unserem Team für Fragen, Ideen und Anpassungen – wir sind Teil deines Teams, kein externer Dienstleister."
+    }
+  ]
+} ,
+"services": {
+  "sectionTitle": "Unsere Leistungen",
+  "sectionSubtitle": "Alles, was dein Unternehmen digital erfolgreich macht – von der Webseite bis zum Community-Wachstum, aus einer Hand.",
+  "items": [
+    {
+      "id": 1,
+        "title": "Social-Media-Management",
+      "description":
+        "Wir übernehmen Ihre Instagram-, Facebook- und TikTok-Präsenz vollständig — Content-Erstellung, Redaktionsplanung und organisches Wachstum für mehr Follower, Likes und Views."
+    },
+    {
+      "id": 2,
+     "title": "Bezahlte Werbung (Ads)",
+      "description":
+        "Gezielte Werbekampagnen auf Facebook, Instagram, TikTok, YouTube und Google Ads — für maximale Reichweite und messbare Ergebnisse."
+    },
+    {
+      "id": 3,
+      "title": "Professionelle Webseiten",
+      "description":
+        "Moderne, schnelle und mobiloptimierte Websites für Ihr Unternehmen — vom Design bis zur Veröffentlichung in 7–14 Tagen. Inklusive SEO-Grundoptimierung."
+    },
+    {
+      "id": 4,
+        "title": "Google-Bewertungsaufbau",
+      "description":
+        "Wir helfen Ihnen, mehr echte Google-Bewertungen zu sammeln und Ihre lokale Sichtbarkeit auf Google Maps nachhaltig zu steigern."
+    }
+  ]
+},
+  "contact": {
+   "sectionTitle": "Kontaktiere uns",
+"sectionSubtitle": "Hast du Fragen oder möchtest du dein Unternehmen digital wachsen lassen? Sende uns direkt eine Nachricht.",
+    "labelName": "Vollständiger name",
+    "labelEmail": "E-mail-adresse",
+    "labelMessage": "Deine nachricht",
+    "btnSend": "Nachricht senden",
+    "btnSending": "Wird gesendet...",
+    "successMsg": "Deine nachricht wurde erfolgreich gesendet!",
+    "emailSubject": "Anfrage deutschkurse",
+    "errors": {
+      "nameRequired": "Bitte gib deinen namen ein.",
+      "nameMin": "Der name muss mindestens 2 zeichen lang sein.",
+      "emailRequired": "Bitte gib deine e-mail-adresse ein.",
+      "emailInvalid": "Bitte gib eine gültige e-mail-adresse ein.",
+      "messageRequired": "Bitte gib deine nachricht ein.",
+      "messageMin": "Die nachricht muss mindestens 5 zeichen lang sein."
+    }
+  },
+"about": {
+  "title": "Über uns",
+  "subtitle": "Gemeinsam auf dem Weg zu digitalem Wachstum – mit professionellem Marketing, persönlicher Betreuung und einer klaren Strategie für dein Unternehmen.",
+  "cards": [
+    {
+      "title": "Wer wir sind",
+      "text": "Afaq Digital ist eine moderne Marketingagentur, die Unternehmen auf ihrem Weg zu mehr digitaler Sichtbarkeit begleitet. Mit durchdachten Strategien für Webseiten, Werbeanzeigen und Social Media unterstützen wir unsere Kunden dabei, online sicher und selbstbewusst aufzutreten. Unsere Arbeit verbindet moderne Marketingmethoden mit persönlicher Betreuung und praxisnahen Ergebnissen. Dabei schaffen wir eine transparente Zusammenarbeit, in der nachhaltiges Wachstum und individuelle Betreuung im Mittelpunkt stehen."
+    },
+    {
+      "title": "Unsere Mission",
+      "text": "Unsere Mission ist es, Unternehmen digital optimal für den lokalen Markt aufzustellen. Wir möchten unseren Kunden nicht nur mehr Sichtbarkeit verschaffen, sondern auch das Vertrauen geben, neue Kunden zu gewinnen und ihre geschäftlichen Ziele zu erreichen. Durch erfahrene Experten und moderne Marketingkonzepte begleiten wir jeden Schritt des Wachstumsprozesses."
+    },
+    {
+      "title": "Webseiten, Werbung und Branding",
+      "text": "Der digitale Markt bietet zahlreiche Möglichkeiten für Sichtbarkeit, Kundengewinnung und geschäftliche Entwicklung. Deshalb unterstützen wir unsere Kunden gezielt dabei, die notwendigen digitalen Voraussetzungen für den nächsten Schritt zu erfüllen. Ob Webseite, Werbekampagne oder Branding – wir helfen dir dabei, deine Reichweite zu erweitern und erfolgreich im digitalen Markt anzukommen."
+    },
+    {
+      "title": "Unsere Vision",
+      "text": "Unsere Vision ist es, Unternehmen durch digitales Marketing neue Zukunftschancen zu eröffnen. Wir glauben, dass eine starke Online-Präsenz die Grundlage für erfolgreiches Wachstum, Kundenvertrauen und geschäftlichen Erfolg bildet. Mit Leidenschaft, Qualität und Innovation möchten wir langfristig einen positiven Beitrag zum Erfolg unserer Kunden leisten."
+    }
+  ]
+},
+ "agb": {
+    "title": "Allgemeine Geschäftsbedingungen (AGB)",
+    "items": [
+      {
+        "title": "1. Geltungsbereich",
+        "text": "Diese Allgemeinen Geschäftsbedingungen gelten für alle Dienstleistungen der Mediaweg Digital Agency."
+      },
+      {
+        "title": "2. Leistungsangebot",
+        "text": "Die Mediaweg Digital Agency bietet Dienstleistungen im Bereich Webdesign, Webentwicklung, Suchmaschinenoptimierung (SEO), Branding, Grafikdesign, Social Media Marketing sowie digitales Marketing an."
+      },
+      {
+        "title": "3. Vertragsschluss",
+        "text": "Ein Vertrag kommt durch schriftliche Bestätigung eines Angebots, per E-Mail, WhatsApp oder über das Kontaktformular der Website zustande."
+      },
+      {
+        "title": "4. Preise und Zahlungsbedingungen",
+        "text": "Die Vergütung für die vereinbarten Dienstleistungen wird vor Projektbeginn festgelegt. Zahlungen erfolgen gemäß den im Angebot oder Vertrag vereinbarten Zahlungsbedingungen."
+      },
+      {
+        "title": "5. Stornierung",
+        "text": "Eine Stornierung eines Projekts ist vor Beginn der Arbeiten möglich. Bereits erbrachte Leistungen oder entstandene Kosten werden entsprechend in Rechnung gestellt."
+      },
+      {
+        "title": "6. Projektabwicklung",
+        "text": "Der Kunde verpflichtet sich, alle für die Durchführung des Projekts erforderlichen Informationen und Materialien rechtzeitig bereitzustellen. Verzögerungen aufgrund fehlender Mitwirkung des Kunden können zu einer Anpassung des Zeitplans führen."
+      },
+      {
+        "title": "7. Haftung",
+        "text": "Die Mediaweg Digital Agency haftet nicht für Ausfälle oder Schäden, die außerhalb ihres Einflussbereichs liegen, insbesondere durch Hosting-Anbieter, Drittanbieter oder technische Störungen."
+      },
+      {
+        "title": "8. Anwendbares Recht",
+        "text": "Es gilt das Recht des Königreichs Marokko. Gerichtsstand ist Salé, Marokko."
+      }
+    ]
+  },
+  "datenschutz": {
+    "title": "Datenschutzerklärung",
+    "items": [
+      {
+        "title": "1. Allgemeine Hinweise",
+        "text": "Der Schutz Ihrer persönlichen Daten ist uns wichtig. Wir behandeln Ihre personenbezogenen Daten vertraulich und gemäß den geltenden Datenschutzbestimmungen des Königreichs Marokko."
+      },
+      {
+        "title": "2. Verantwortlicher",
+        "text": "Mediaweg Digital Agency\nInhaber: Badr Kassimi\nRue Omar Ibn Abdel Aziz 1151\nHay Rahma, Salé\nMarokko\nE-Mail: Kontakt@mediaweg.com\nTelefon: +212 723 331453"
+      },
+      {
+        "title": "3. Erhebung und Verarbeitung personenbezogener Daten",
+        "text": "Wenn Sie uns über das Kontaktformular kontaktieren, verarbeiten wir folgende Daten:",
+        "list": [
+          "Name",
+          "E-Mail-Adresse",
+          "Telefonnummer (optional)",
+          "Inhalt Ihrer Nachricht"
+        ],
+        "footer": "Diese Daten werden ausschließlich zur Bearbeitung Ihrer Anfrage und zur Durchführung unserer Dienstleistungen verwendet."
+      },
+      {
+        "title": "4. Nutzung von WhatsApp",
+        "text": "Auf unserer Website befindet sich ein WhatsApp-Button. Beim Anklicken werden Sie zu WhatsApp weitergeleitet. Dabei können personenbezogene Daten durch WhatsApp verarbeitet werden. Es gelten die Datenschutzbestimmungen des jeweiligen Anbieters."
+      },
+      {
+        "title": "5. Speicherdauer",
+        "text": "Ihre personenbezogenen Daten werden nur so lange gespeichert, wie dies zur Bearbeitung Ihrer Anfrage, zur Vertragsabwicklung oder aufgrund gesetzlicher Aufbewahrungspflichten erforderlich ist."
+      },
+      {
+        "title": "6. Ihre Rechte",
+        "text": "Sie haben das Recht:",
+        "list": [
+          "Auskunft über Ihre gespeicherten Daten zu erhalten",
+          "Unrichtige Daten berichtigen zu lassen",
+          "Die Löschung Ihrer Daten zu verlangen"
+        ],
+        "footer": "Bei Fragen zum Datenschutz können Sie uns jederzeit kontaktieren."
+      }
+    ]
+  },
+  "impressum": {
+    "title": "Impressum",
+    "items": [
+      {
+        "title": "Mediaweg Digital Agency",
+        "owner": "Badr Kassimi",
+        "address": [
+          "Rue Omar Ibn Abdel Aziz 1151",
+          "Hay Rahma",
+          "Salé",
+          "Marokko"
+        ],
+        "phone": "+212 723 331453",
+        "email": "Kontakt@mediaweg.com"
+      },
+      {
+        "title": "Verantwortlich für den Inhalt",
+        "text": "Badr Kassimi"
+      },
+      {
+        "title": "Hinweis",
+        "text": "Die Mediaweg Digital Agency ist eine in Marokko ansässige Digitalagentur und bietet Dienstleistungen in den Bereichen Webdesign, Webentwicklung, SEO, Branding, Grafikdesign und digitales Marketing an."
+      }
+    ]
+  },
+  "loading": {
+  "title": "Wird geladen...",
+  "subtitle": "Bitte warten Sie einen Moment."
+},
+  "footer": {
+    "nav": {
+      "home": "Start",
+      "impressum": "Impressum",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "copyright": "Mediaweg Sprachinstitut. Alle Rechte vorbehalten. © 2026"
+  }
+}
