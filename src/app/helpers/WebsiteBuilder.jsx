@@ -47,17 +47,28 @@ export default function WebsiteBuilder() {
 
           {/* Website icon */}
           <motion.div className={styles.iconWrapper} variants={iconVariants}>
-            <motion.img
-              src="https://cdn-icons-png.flaticon.com/512/3273/3273413.png"
-              alt="Website-Erstellung"
+            <motion.svg
               className={styles.starIcon}
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="Website-Erstellung"
               animate={{ y: [0, -8, 0] }}
               transition={{
                 duration: 2.6,
                 repeat: Infinity,
                 ease: 'easeInOut',
               }}
-            />
+            >
+              <path
+                d="M7 8L3 11.6923L7 16M17 8L21 11.6923L17 16M14 4L10 20"
+                stroke="#0075ff"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </motion.svg>
           </motion.div>
 
           <motion.h2 variants={fadeUp}>
