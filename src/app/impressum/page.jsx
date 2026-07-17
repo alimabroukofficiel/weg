@@ -12,33 +12,38 @@ const Impressum = () => {
           </div>
           <span className={styles.badgeText}>Rechtliches</span>
         </div>
+
         <h1>Impressum</h1>
+
         <svg className={styles.squiggle} viewBox="0 0 60 12">
-          <path className={styles.squigglePath} d="M1 6 Q8 0, 15 6 T29 6 T43 6 T57 6" />
+          <path
+            className={styles.squigglePath}
+            d="M1 6 Q8 0, 15 6 T29 6 T43 6 T57 6"
+          />
         </svg>
       </div>
 
       <div className={styles.legalPanel}>
         <div className={styles.legalBody}>
           <div className={styles.infoBox}>
-            <p><strong>Mediaweg</strong></p>
-            <p>Inhaber: Ali Mabrouk</p>
-            <p>Rue Omar Ibn Abdel Aziz 1151</p>
-            <p>Hay Rahma</p>
-            <p>Salé</p>
-            <p>Marokko</p>
-            <p><strong>Telefon:</strong> 00212 723 331453</p>
+            <p><strong>Badr Kassimi</strong></p>
+            <p>Inhaber: Badr Kassimi</p>
+            <p>Schulstraße 30</p>
+            <p>49191 Belm</p>
+            <p>Deutschland</p>
+            <p><strong>Telefon:</strong> +49 177 2462833</p>
             <p><strong>E-Mail:</strong> kontakt@mediaweg.de</p>
           </div>
 
           <h2>Verantwortlich für den Inhalt</h2>
-          <p>Ali Mabrouk</p>
+          <p>Badr Kassimi</p>
 
           <h2>Hinweis</h2>
           <p>
-            Mediaweg ist eine Digitalmarketing-Agentur mit Sitz in Marokko, die Unternehmen 
-            im deutschsprachigen Raum bei Social-Media-Management, Werbeanzeigen, 
-            Webseitenerstellung und Google-Maps-Bewertungsmanagement unterstützt. 
+            Badr Kassimi bietet professionelle Dienstleistungen im Bereich
+            Digitalmarketing an. Dazu gehören Social-Media-Management,
+            Werbeanzeigen (Meta, Google Ads und TikTok Ads),
+            Webseitenerstellung sowie Google-Maps-Bewertungsmanagement.
             Die Zusammenarbeit erfolgt vollständig remote.
           </p>
         </div>
