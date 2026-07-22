@@ -8,15 +8,26 @@
 
   font-family: "Poppins", sans-serif;
   position: relative;
+  background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1920&q=80");
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  padding-bottom: 90px;
+}
+
+/* gradient tint overlay on top of the photo */
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: linear-gradient(
     115deg,
     var(--blue-left) 0%,
     var(--blue-right) 65%,
     var(--blue-deep) 100%
   );
-  overflow: hidden;
-  padding-bottom: 90px;
-
+  opacity: 0.85;
+  z-index: 0;
 }
 
 /* decorative circles */
@@ -25,6 +36,7 @@
   border-radius: 50%;
   border: 2px solid rgba(255, 255, 255, 0.35);
   pointer-events: none;
+  z-index: 1;
 }
 
 .circle.filled {
